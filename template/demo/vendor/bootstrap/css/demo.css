@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+0,ffffff+50,eaf6ff+50,d5ebfb+100 */
+  background: #ffffff; /* Old browsers */
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  background-color: rgba(0,0,0,.15);
+  -webkit-box-shadow: inset -1px -1px 0 rgba(0,0,0,.05), inset 1px 1px 0 rgba(0,0,0,.05);
+  box-shadow: inset -1px -1px 0 rgba(0,0,0,.05), inset 1px 1px 0 rgba(0,0,0,.05);
+}
+::-webkit-scrollbar {
+  width:4px;
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background: hsla(0, 0%, 53.3%, 0.4);
+}
+.phone-screen {
+  background: url(phone.jpg);
+  width: 475px;
+  height: 769px;
+  padding: 29px 0;
+  margin: auto;
+}
+iframe{
+  width: 400px;
+  height: 703px;
+  border: none;
+  background: #fff;
+  border-radius: 25px;
+  padding: 0px;
+}
+img.logo {
+  background: #d92662;
+  border-radius: 180px;
+  width: 120px;
+  margin: 29px 0;
+}
+.f-r{
+  border-radius: 25px;
+  overflow: hidden;
+}
+.hv-100{
+  height: 100vh;
+}
+.btn-primary {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d92662+0,e23744+100 */
+  background: #d92662;
+	/* Old browsers */
+  background: -moz-linear-gradient(45deg, #d92662 0%, #e23744 100%);
+	/* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #d92662 0%, #e23744 100%);
+	/* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #d92662 0%, #e23744 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#d92662', endColorstr='#e23744', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+  border-color: #d92662;
+}
+
+.btn-primary:hover {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d92662+0,e23744+100 */
+  background: #d92662;
+	/* Old browsers */
+  background: -moz-linear-gradient(-45deg, #d92662 0%, #e23744 100%);
+	/* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #d92662 0%, #e23744 100%);
+	/* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #d92662 0%, #e23744 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#d92662', endColorstr='#e23744', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+  border-color: #e23744;
+}
+
+
+.qrcode {
+  width: 225px;
+}
+.btn {
+border: none;
+font-size: 16px;
+border-radius: 6px;
+padding: 12px 29px;
+}
+.rounded{
+border-radius: 6px !important;
+}
