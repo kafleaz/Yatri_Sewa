@@ -739,3 +739,11 @@ h1.success-icon {
 	font-size: 12px;
 	font-weight: 600;
 }
+
+.bg-darkblue {
+	background-color: #042F40;
+}
+
+.text-darkblue {
+	color: #042F40;
+}
