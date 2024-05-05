@@ -755,3 +755,15 @@ h1.success-icon {
 .text-darkblue {
 	color: #042F40;
 }
+.text-green {
+	color:#36A690;
+}
+.text-green:hover {
+	color: #042F40;
+}
+.text-darkblue-h {
+	color: #042F40;
+}
+.text-darkblue-h:hover {
+	color: #36A690;
+}
