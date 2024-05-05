@@ -438,7 +438,7 @@ small.osahan-n {
 }
 h1.success-icon {
 	font-size: 80px !important;
-	color: #5BC550;
+	color: #031101;
 }
 
 /* header */
@@ -677,7 +677,7 @@ h1.success-icon {
 .nav-osahan-fotter{
 	position: sticky;
 	padding: 0.5rem;
-	padding-top:15px ;
+	padding-top:15px;
 }
 .yatrilogo {
     /* margin-top: 65%; */
@@ -769,4 +769,9 @@ h1.success-icon {
 }
 .text-darkblue-h:hover {
 	color: #36A690;
+}
+
+.icofont-info-circle{
+	color: #36A690;
+	
 }
