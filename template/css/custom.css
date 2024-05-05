@@ -673,9 +673,12 @@ h1.success-icon {
 	position: absolute;
 	/* justify-content: center; */
   /* transform: translate(-50%); */
-	
   }
-
+.nav-osahan-fotter{
+	position: sticky;
+	padding: 0.5rem;
+	padding-top:15px ;
+}
 .yatrilogo {
     /* margin-top: 65%; */
     height: 150px;
