@@ -709,6 +709,10 @@ h1.success-icon {
 	background-color: #042F40;
 	color: white;
 }
+.bg-color {
+	background-color: #042F40;
+	color: white;
+}
 .get-started:hover {
 	font-weight: bold;
 	background-color: #043d54;
