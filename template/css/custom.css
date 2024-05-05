@@ -447,12 +447,12 @@ h1.success-icon {
 	display: flex;
 }
 .osahan-header-nav .icofont-rounded-left {
-	background: #ffedef;
+	background: #c3f6ec;
 	border-radius: 50px;
 	padding: 6px;
 }
 .osahan-header-nav .icofont-rounded-left:hover {
-	background: #000;
+	background: #36A690;
 	color: #fff;
 }
 
@@ -709,6 +709,10 @@ h1.success-icon {
 	background-color: #042F40;
 	color: white;
 }
+.bg-color {
+	background-color: #042F40;
+	color: white;
+}
 .get-started:hover {
 	font-weight: bold;
 	background-color: #043d54;
@@ -736,12 +740,16 @@ h1.success-icon {
 
 .form-group {
 	text-align: left;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 600;
 }
 
 .bg-darkblue {
 	background-color: #042F40;
+}
+
+.bg-green {
+	background-color: #36A690;
 }
 
 .text-darkblue {
