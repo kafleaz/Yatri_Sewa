@@ -673,10 +673,17 @@ h1.success-icon {
 	position: absolute;
 	/* justify-content: center; */
   /* transform: translate(-50%); */
-	
   }
+<<<<<<< HEAD
 
 
+=======
+.nav-osahan-fotter{
+	position: sticky;
+	padding: 0.5rem;
+	padding-top:15px ;
+}
+>>>>>>> 0d2eb64fdfb5eb300c5dd964dd40e1d245dff677
 .yatrilogo {
     /* margin-top: 65%; */
     height: 150px;
