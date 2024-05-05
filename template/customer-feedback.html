@@ -19,12 +19,12 @@
       <!-- Sidebar CSS -->
       <link href="vendor/sidebar/demo.css" rel="stylesheet">
    </head>
-   <body class="bg-light">
+   <div class="whitecontainer">
       <!-- Feedback -->
       <div class="osahan-feedback padding-bt">
-         <div class="osahan-header-nav shadow-sm bg-danger p-3 d-flex align-items-center">
+         <div class="osahan-header-nav shadow-sm bg-darkblue p-3 d-flex align-items-center">
             <h5 class="font-weight-normal mb-0 text-white">
-               <a class="text-danger mr-3" href="home.html"><i class="icofont-rounded-left"></i></a>
+               <a class="text-danger mr-3" href="home.html"><i class="icofont-rounded-left text-darkblue"></i></a>
                Customer Feedback
             </h5>
             <div class="ml-auto d-flex align-items-center">
@@ -32,8 +32,8 @@
             </div>
          </div>
          <!-- Customer Feedback Form -->
-         <form action="home.html" class="p-3 feedback">
-            <div class="form-group mb-3 w-100 d-flex align-items-center">
+         <form action="home.html" class="form-group p-4 feedback">
+            <div class="form-group mb-4 w-100 d-flex align-items-center">
                <label for="exampleFormControlFile1" class="mb-0">Punctuality</label><br>
                <div class="rate ml-auto">
                   <input type="radio" id="Punctuality5" name="Punctuality" value="5" />
@@ -48,7 +48,7 @@
                   <label for="Punctuality1" title="text"></label>
                </div>
             </div>
-            <div class="form-group mb-3 w-100 d-flex align-items-center">
+            <div class="form-group mb-4 w-100 d-flex align-items-center">
                <label for="exampleFormControlFile2" class="mb-0">Services & Staff</label><br>
                <div class="rate ml-auto">
                   <input type="radio" id="Services5" name="Services" value="5" />
@@ -63,7 +63,7 @@
                   <label for="Services1" title="text"></label>
                </div>
             </div>
-            <div class="form-group mb-3 w-100 d-flex align-items-center">
+            <div class="form-group mb-4 w-100 d-flex align-items-center">
                <label for="exampleFormControlFile3" class="mb-0">Bus Cleanliness</label><br>
                <div class="rate ml-auto">
                   <input type="radio" id="Cleanliness5" name="Cleanliness" value="5" />
@@ -78,7 +78,7 @@
                   <label for="Cleanliness1" title="text"></label>
                </div>
             </div>
-            <div class="form-group mb-3 w-100 d-flex align-items-center">
+            <div class="form-group mb-5 w-100 d-flex align-items-center">
                <label for="exampleFormControlFile4" class="mb-0">Comfort</label><br>
                <div class="rate ml-auto">
                   <input type="radio" id="Comfort5" name="Comfort" value="5" />
@@ -96,8 +96,8 @@
             <div class="form-group mb-5 w-100">
                <textarea class="form-control form-control-sm p-2 bg-textarea border rounded-1" id="validationTextarea" placeholder="Customer Comment"></textarea>
             </div>
-            <div class="submit-btn fixed-bottom m-3">
-               <button class="btn btn-danger btn-block osahanbus-btn">SUBMIT FEEDBACK</button>
+            <div class="osahan-fotter fixed-bottom m-3">
+               <button class="bg-darkblue boder btn create-account btn-block osahanbus-btn border">SUBMIT FEEDBACK</button>
             </div>
          </form>
       </div>
@@ -105,7 +105,7 @@
       <nav id="main-nav">
          <ul class="second-nav">
             <li>
-               <a href="#" class="bg-danger sidebar-user d-flex align-items-center py-4 px-3 border-0 mb-0">
+               <a href="#" class="bg-color sidebar-user d-flex align-items-center py-4 px-3 border-0 mb-0">
                   <img src="img/user1.jpg" class="img-fluid rounded-pill mr-3">
                   <div class="text-white">
                      <h6 class="mb-0">I Am Osahan</h6>
@@ -225,5 +225,6 @@
       <script type="text/javascript" src="vendor/sidebar/hc-offcanvas-nav.js"></script>
       <!-- Custom scripts for all pages-->
       <script src="js/custom.js"></script>
+   </div>
    </body>
    </html>
