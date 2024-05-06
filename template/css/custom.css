@@ -191,6 +191,7 @@ a {
 /* Form Control */
 .osahan-form input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 	-moz-appearance: textfield;
+	appearance: textfield;
 	-webkit-appearance: none;
 	margin: 0;
 }
@@ -608,7 +609,7 @@ h1.success-icon {
 }
 .rate:not(:checked) > label:before {
 	font-family: IcoFont!important;
-	speak: none;
+	speak-as: none;
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
@@ -618,6 +619,7 @@ h1.success-icon {
 	direction: ltr;
 	line-height: 1;
 	-webkit-font-feature-settings: "liga";
+	font-feature-settings: "liga";
 	-webkit-font-smoothing: antialiased;
 	content: '\f000';
 }
