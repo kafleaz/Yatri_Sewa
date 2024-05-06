@@ -40,6 +40,7 @@ Version: 0.1
 body {
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 13px;
+	height: 820px;
 	display: flex;
     justify-content: center;
 	background-color: #c9c3c4;
@@ -56,7 +57,7 @@ body {
 
 .whitecontainer {
 	position: relative;
-    height: 820px;
+    /* height: 820px; */
     width: 400px;
     background-color: #F0F1F3;
     text-align: center;
@@ -391,7 +392,7 @@ span.select2.select2-container {
 
 /* Footer Menu */
 .footer-menu .active {
-	color: #ffc106 !important;
+	color: #36A690 !important;
 }
 .footer-menu p {
 	font-size: 9px;
@@ -679,6 +680,10 @@ h1.success-icon {
 	padding: 0.5rem;
 	padding-top:15px;
 }
+.osahan-nav-logo{
+	background-color: #fff;
+}
+
 .yatrilogo {
     /* margin-top: 65%; */
     height: 150px;
@@ -774,4 +779,23 @@ h1.success-icon {
 .icofont-info-circle{
 	color: #36A690;
 	
+}
+
+.btn-darkblue {
+	background-color: #042F40;
+	color: white;
+}
+.btn-darkblue:hover {
+	font-weight: bold;
+	background-color: #043d54;
+	color: rgb(181, 178, 178);
+}
+.btn-green {
+	background-color: #36A690;
+	color: white;
+}
+.btn-green:hover {
+	font-weight: bold;
+	background-color: #15a185;
+	color: rgb(181, 178, 178);
 }
