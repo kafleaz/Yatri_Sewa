@@ -40,13 +40,13 @@ Version: 0.1
 body {
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 13px;
-	height: 820px;
 	display: flex;
     justify-content: center;
 	background-color: #c9c3c4;
 
 }
 .mobcontainer {
+
 	position: relative;
     height: 820px;
     width: 400px;
@@ -57,13 +57,20 @@ body {
 
 .whitecontainer {
 	position: relative;
-    /* height: 820px; */
+    height: 820px;
     width: 400px;
     background-color: #F0F1F3;
     text-align: center;
     justify-content: center;
 }
 
+.longcontainer {
+	position: sticky;
+    width: 400px;
+    background-color: #F0F1F3;
+    text-align: center;
+    justify-content: center;
+}
 /* .fixed-bottom {
 	/* position:absolute; */
 	
@@ -184,6 +191,7 @@ a {
 /* Form Control */
 .osahan-form input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 	-moz-appearance: textfield;
+	appearance: textfield;
 	-webkit-appearance: none;
 	margin: 0;
 }
@@ -601,7 +609,7 @@ h1.success-icon {
 }
 .rate:not(:checked) > label:before {
 	font-family: IcoFont!important;
-	speak: none;
+	speak-as: none;
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
@@ -611,6 +619,7 @@ h1.success-icon {
 	direction: ltr;
 	line-height: 1;
 	-webkit-font-feature-settings: "liga";
+	font-feature-settings: "liga";
 	-webkit-font-smoothing: antialiased;
 	content: '\f000';
 }
