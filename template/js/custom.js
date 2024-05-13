@@ -59,4 +59,37 @@ function redirectAfterDelay()
 };
 
 // =======signup.js=======
+const isValidEmail = email => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
 
+
+function validate() {
+    var mail = document.getElementById("mail");
+    var pass = document.getElementById("pass");
+    var pass2 = document.getElementById("pass2");
+  
+    if (mail.value.trim() == "") {
+      alert("Email required!");
+      return false;
+    } else if (pass.value.trim() == "") {
+      alert("Password required!");
+      return false;
+    } else if (!isValidEmail(mail.value.trim())) {
+      alert("Provide a valid email address");
+      return false;
+    } else if (pass.value.trim().length < 8) {
+      alert("Password too short!");
+      return false;
+    } else if (pass2.value.trim() == "") {
+      alert("Please confirm your password!");
+      return false;
+    } else if (pass2.value.trim() !== pass.value.trim()) {
+      alert("Passwords do not match!");
+      return false;
+    } else {
+      return true;
+    }
+  }
+  

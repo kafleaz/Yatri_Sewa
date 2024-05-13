@@ -32,18 +32,19 @@
             </div>
          </div>
          <div class="p-3">
-            <form action="verification.html">
+            <form onsubmit="return validate();" 
+            action="verification.html">
                <div class="form-group">
                   <label class="text-muted mb-1">Your Email</label>
-                  <input type="email" class="form-control" placeholder="Enter Your Email"  value="example@mail.com">
+                  <input id="mail" type="email" class="form-control" placeholder="Enter Your Email" >
                </div>
                <div class="form-group">
                   <label class="text-muted mb-1">Password</label>
-                  <input type="password" class="form-control" placeholder="Enter Your Password"  value="osahan94">
+                  <input id="pass" type="password" class="form-control" placeholder="Enter Your Password" >
                </div>
                <div class="form-group">
                   <label class="text-muted mb-1">Confirm Password</label>
-                  <input type="password" class="form-control" placeholder="Enter Your Password"  value="osahan94">
+                  <input id="pass2" type="password" class="form-control" placeholder="Enter Your Password" >
                </div>
                <button type="submit" class="btn create-account btn-block osahanbus-btn mb-3 rounded-1 mt-4">CREATE AN ACCOUNT</button>
                <p class="text-muted text-center small">By signing up you agree to our Privacy Policy and Terms.</p>
