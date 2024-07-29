@@ -48,8 +48,8 @@ body {
 }
 .mobcontainer {
 	position: relative;
-    height: 820px;
-    width: 400px;
+    /* height: 820px; */
+    max-width: 400px;
     background-color: #03314B;
     text-align: center;
     justify-content: center;
@@ -58,7 +58,7 @@ body {
 .whitecontainer {
 	position: relative;
     /* height: 820px; */
-    width: 400px;
+    max-width: 400px;
     background-color: #F0F1F3;
     text-align: center;
     justify-content: center;
@@ -798,4 +798,28 @@ h1.success-icon {
 	font-weight: bold;
 	background-color: #15a185;
 	color: rgb(181, 178, 178);
+}
+
+.seat-box .seat {
+    width: 25px;
+    height: 25px;
+	border-radius: 5px;
+    display: inline-block;
+}
+
+.red {
+    background-color: #BD2130;
+}
+
+.green {
+    background-color: #36A690;
+}
+
+.yellow {
+    background-color: #D39E00;
+}
+
+.available {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
 }
